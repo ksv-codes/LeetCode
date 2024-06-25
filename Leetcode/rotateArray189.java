@@ -17,7 +17,7 @@ public class rotateArray189 {
         }
         for (int i = 0; i < 2; i++) {//i=0,1
             for (int j = i+5; j<i+6 ; j++) {//j=6,7
-                res[j]=res[i];
+                res[j]=arr[i];
 
             }
         }
